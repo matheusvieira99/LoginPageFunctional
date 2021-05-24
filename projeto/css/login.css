@@ -1,0 +1,71 @@
+body{
+   /* background-image: linear-gradient(to bottom right, #1073B5, #fff);
+   background-image: linear-gradient(#1073B5, #fff);
+   background-repeat: no-repeat;
+   background-size: 100%;  */
+   background-image: url(../img/watercolor-background_87374-69.jpg);
+   background-size: 1100px;
+ 
+}
+
+.box-login {
+   max-width: 280px;
+   border: 1px solid #ddd;
+   background-color: #fff;
+   margin: auto;
+   margin-top: 70px;
+   padding: 25px;
+   padding-top: 0px;
+   border-radius: 4px;
+   box-shadow: 0 0 10px 0 rgb(50 50 50 / 82%);
+   min-height: 90%;
+}
+
+.logo {
+   text-align: center;
+   color: #1073B5;
+   font-size: 30px;
+}
+
+.grupo {
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+#btn-entrar, input {
+   width: 100%; 
+   padding: 5px;
+   border: 0;
+   border-radius: 3px;
+}
+
+input {
+   border: 2px solid #ddd;
+
+}
+
+input:focus {
+   border: 2px solid #1073B5;
+}
+
+#btn-entrar {
+   background-color: #1073B5;
+   color: #fff;
+   padding: 10px;
+   cursor: pointer;
+}
+
+#btn-entrar:hover {
+   background-color: #1F97CE;
+}
+
+.grupo.grupo-final {
+   text-align: right;
+}
+
+.grupo > a {
+   color: #1073B5;
+   font-size: 12px;
+   text-decoration: none; /*Remove o sublinhado do link*/
+   font-weight: 600;
+}
